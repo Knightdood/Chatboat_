@@ -206,7 +206,7 @@ const RightSection = () => {
 
                 <div className={styles.bottomsection}>
                     <div className={styles.messagebar}>
-                        <input type='text' placeholder='Message CHATGPT Bot...'
+                        <input type='text' placeholder='Message CHAT Bot...'
                             onChange={(e) => setMessage(e.target.value)}
                             value={message}
                         />
